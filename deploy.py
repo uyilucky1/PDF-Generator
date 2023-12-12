@@ -34,7 +34,7 @@ def generate_pdf(df):
 
 
 def main():
-    st.title("PDF Generator App")
+    st.markdown('<h1 style="color: red;">PDF Generator App</h1>', unsafe_allow_html=True)
 
     uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
 
